@@ -1,0 +1,67 @@
+int p;
+int Fibonacci(int n){
+  if (n==0){
+    return 0;
+  }
+  if (n==1){
+    return 1;
+  }
+  p=0;
+  return Fibonacci(n)+Fibonacci(n-1);
+}
+
+
+
+void main() {
+  int a;
+  int b;
+  int p;
+  a = 10;
+  b = a+a+a;
+  int x;
+  int y;
+  if (x<100||x>200&&x!=y){
+      a = 11;
+  }
+  a = 12;
+  int c;
+  int result;
+  c = 13;
+  result = Fibonacci(a);
+  Print(result);
+  while(a<=10){
+    a=a+1;
+  }
+  b=2;
+}
+
+
+int isprime(int n)
+{
+    int i;
+    i=2;
+    while(i<=n-1)
+    {
+      if(n%i==0)
+      {
+        return 0;
+      }
+      i=i+1;
+    }
+    return 1;
+}
+void main()
+{
+    int i,c;
+    c=0;
+    i=2
+    while(i<=100)
+    {
+        if(isprime(i))
+        {
+            Print(result);
+            c++;
+        }
+        i=i+1;
+    }
+}
